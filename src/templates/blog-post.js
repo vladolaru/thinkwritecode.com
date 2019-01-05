@@ -4,6 +4,7 @@ import { Link, graphql } from 'gatsby'
 import Bio from '../components/Bio'
 import Layout from '../components/Layout'
 import SEO from '../components/seo'
+import { formatReadingTime } from '../utils/helpers'
 import { rhythm, scale } from '../utils/typography'
 
 class BlogPostTemplate extends React.Component {
@@ -14,7 +15,11 @@ class BlogPostTemplate extends React.Component {
 
     return (
       <Layout location={this.props.location} title={siteTitle}>
-        <SEO title={post.frontmatter.title} description={post.excerpt} />
+        <SEO
+          title={post.frontmatter.title}
+          description={post.frontmatter.spoiler}
+          slug={post.fields.slug}
+        />
         <h1>{post.frontmatter.title}</h1>
         <p
           style={{
@@ -25,6 +30,7 @@ class BlogPostTemplate extends React.Component {
           }}
         >
           {post.frontmatter.date}
+          {` • ${formatReadingTime(post.timeToRead)}`}
         </p>
         <div dangerouslySetInnerHTML={{ __html: post.html }} />
         <hr
@@ -32,6 +38,23 @@ class BlogPostTemplate extends React.Component {
             marginBottom: rhythm(1),
           }}
         />
+        <h3
+          style={{
+            fontFamily: 'Montserrat, sans-serif',
+            marginTop: rhythm(0.25),
+          }}
+        >
+          <Link
+            style={{
+              boxShadow: 'none',
+              textDecoration: 'none',
+              color: '#FEA166',
+            }}
+            to={'/'}
+          >
+            {siteTitle}
+          </Link>
+        </h3>
         <Bio />
 
         <ul
@@ -77,9 +100,14 @@ export const pageQuery = graphql`
       id
       excerpt(pruneLength: 160)
       html
+      timeToRead
       frontmatter {
         title
         date(formatString: "MMMM DD, YYYY")
+        spoiler
+      }
+      fields {
+        slug
       }
     }
   }

@@ -3,60 +3,73 @@ import PropTypes from 'prop-types'
 import Helmet from 'react-helmet'
 import { StaticQuery, graphql } from 'gatsby'
 
-function SEO({ description, lang, meta, keywords, title }) {
+function SEO({ meta, image, title, description, slug }) {
   return (
     <StaticQuery
       query={detailsQuery}
       render={data => {
+        const { siteMetadata } = data.site
         const metaDescription =
           description || data.site.siteMetadata.description
+        const metaImage = image ? `${siteMetadata.siteUrl}/${image}` : null
+        const url = `${siteMetadata.siteUrl}${slug}`
         return (
           <Helmet
-            htmlAttributes={{
-              lang,
-            }}
-            title={title}
-            titleTemplate={`%s | ${data.site.siteMetadata.title}`}
+            htmlAttributes={{ lang: 'en' }}
+            {...(title
+              ? {
+                titleTemplate: `%s - ${siteMetadata.title}`,
+                title,
+              }
+              : {
+                title: siteMetadata.title,
+              })}
             meta={[
               {
-                name: `description`,
+                name: 'description',
                 content: metaDescription,
               },
               {
-                property: `og:title`,
-                content: title,
+                property: 'og:url',
+                content: url,
               },
               {
-                property: `og:description`,
+                property: 'og:title',
+                content: title || siteMetadata.title,
+              },
+              {
+                name: 'og:description',
                 content: metaDescription,
               },
               {
-                property: `og:type`,
-                content: `website`,
+                name: 'twitter:card',
+                content: 'summary',
               },
               {
-                name: `twitter:card`,
-                content: `summary`,
+                name: 'twitter:creator',
+                content: siteMetadata.social.twitter,
               },
               {
-                name: `twitter:creator`,
-                content: data.site.siteMetadata.author,
+                name: 'twitter:title',
+                content: title || siteMetadata.title,
               },
               {
-                name: `twitter:title`,
-                content: title,
-              },
-              {
-                name: `twitter:description`,
+                name: 'twitter:description',
                 content: metaDescription,
               },
             ]
               .concat(
-                keywords.length > 0
-                  ? {
-                      name: `keywords`,
-                      content: keywords.join(`, `),
-                    }
+                metaImage
+                  ? [
+                    {
+                      property: 'og:image',
+                      content: metaImage,
+                    },
+                    {
+                      name: 'twitter:image',
+                      content: metaImage,
+                    },
+                  ]
                   : []
               )
               .concat(meta)}
@@ -68,16 +81,16 @@ function SEO({ description, lang, meta, keywords, title }) {
 }
 
 SEO.defaultProps = {
-  lang: `en`,
   meta: [],
-  keywords: [],
+  title: '',
+  slug: '',
 }
 
 SEO.propTypes = {
   description: PropTypes.string,
-  lang: PropTypes.string,
+  image: PropTypes.string,
   meta: PropTypes.array,
-  keywords: PropTypes.arrayOf(PropTypes.string),
+  slug: PropTypes.string,
   title: PropTypes.string.isRequired,
 }
 
@@ -90,6 +103,10 @@ const detailsQuery = graphql`
         title
         description
         author
+        siteUrl
+        social {
+          twitter
+        }
       }
     }
   }

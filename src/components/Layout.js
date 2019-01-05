@@ -43,7 +43,7 @@ class Layout extends React.Component {
             style={{
               boxShadow: `none`,
               textDecoration: `none`,
-              color: `inherit`,
+              color: `#FEA166`,
             }}
             to={`/`}
           >
@@ -63,9 +63,6 @@ class Layout extends React.Component {
       >
         {header}
         {children}
-        <footer>
-          © 2018, Built with <a href="https://www.gatsbyjs.org">Gatsby</a>
-        </footer>
       </div>
     )
   }

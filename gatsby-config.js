@@ -1,11 +1,11 @@
 module.exports = {
   siteMetadata: {
-    title: `Gatsby Starter Blog`,
-    author: `Kyle Mathews`,
-    description: `A starter blog demonstrating what Gatsby can do.`,
-    siteUrl: `https://gatsby-starter-blog-demo.netlify.com/`,
+    title: `Think.Write.Code.`,
+    author: `Vlad Olaru`,
+    description: `Personal blog by Vlad Olaru.`,
+    siteUrl: `https://thinkwritecode.com/`,
     social: {
-      twitter: `kylemathews`,
+      twitter: `vladpotter`,
     },
   },
   plugins: [
@@ -39,9 +39,15 @@ module.exports = {
               wrapperStyle: `margin-bottom: 1.0725rem`,
             },
           },
-          `gatsby-remark-prismjs`,
-          `gatsby-remark-copy-linked-files`,
-          `gatsby-remark-smartypants`,
+          'gatsby-remark-autolink-headers',
+          {
+            resolve: 'gatsby-remark-prismjs',
+            options: {
+              inlineCodeMarker: '÷',
+            },
+          },
+          'gatsby-remark-copy-linked-files',
+          'gatsby-remark-smartypants',
         ],
       },
     },
@@ -50,20 +56,20 @@ module.exports = {
     {
       resolve: `gatsby-plugin-google-analytics`,
       options: {
-        //trackingId: `ADD YOUR TRACKING ID HERE`,
+        trackingId: `UA-131754149-1`,
       },
     },
     `gatsby-plugin-feed`,
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `Gatsby Starter Blog`,
-        short_name: `GatsbyJS`,
+        name: `Think.Write.Code.`,
+        short_name: `T.W.C.`,
         start_url: `/`,
         background_color: `#ffffff`,
-        theme_color: `#663399`,
+        theme_color: `#FF6F61`,
         display: `minimal-ui`,
-        icon: `content/assets/gatsby-icon.png`,
+        icon: `content/assets/icon.png`,
       },
     },
     `gatsby-plugin-offline`,

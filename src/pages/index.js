@@ -4,6 +4,8 @@ import { Link, graphql } from 'gatsby'
 import Bio from '../components/Bio'
 import Layout from '../components/Layout'
 import SEO from '../components/seo'
+import Footer from '../components/Footer'
+import { formatReadingTime } from '../utils/helpers'
 import { rhythm } from '../utils/typography'
 
 class BlogIndex extends React.Component {
@@ -14,10 +16,7 @@ class BlogIndex extends React.Component {
 
     return (
       <Layout location={this.props.location} title={siteTitle}>
-        <SEO
-          title="All posts"
-          keywords={[`blog`, `gatsby`, `javascript`, `react`]}
-        />
+        <SEO />
         <Bio />
         {posts.map(({ node }) => {
           const title = node.frontmatter.title || node.fields.slug
@@ -32,11 +31,17 @@ class BlogIndex extends React.Component {
                   {title}
                 </Link>
               </h3>
-              <small>{node.frontmatter.date}</small>
-              <p dangerouslySetInnerHTML={{ __html: node.excerpt }} />
+              <small>
+                {node.frontmatter.date}
+                {` • ${formatReadingTime(node.timeToRead)}`}
+              </small>
+              <p
+                dangerouslySetInnerHTML={{ __html: node.frontmatter.spoiler }}
+              />
             </div>
           )
         })}
+        <Footer />
       </Layout>
     )
   }
@@ -49,18 +54,20 @@ export const pageQuery = graphql`
     site {
       siteMetadata {
         title
+        description
       }
     }
     allMarkdownRemark(sort: { fields: [frontmatter___date], order: DESC }) {
       edges {
         node {
-          excerpt
           fields {
             slug
           }
+          timeToRead
           frontmatter {
             date(formatString: "MMMM DD, YYYY")
             title
+            spoiler
           }
         }
       }
