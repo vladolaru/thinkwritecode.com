@@ -91,4 +91,4 @@ Secondly, we should try and surround ourselves with people willing to wear more 
 
 Thirdly, everyone should be empowered and helped to *lead from where they stand.* You don't need a special hat to make small decisions, to spot things worth improving, or to give someone your feedback. You just need to be willing to lend a helping hand and work towards the greater good — we are all in this together.
 
-_This story was initially published on [Medium.com](https://medium.com/@vladpotter/the-founders-dilemma-many-hats-one-head-7b413812792d), but I prefer it to live here. It think it is more at home here._ 🤗
+_This story was initially published on [Medium.com](https://medium.com/@vladpotter/the-founders-dilemma-many-hats-one-head-7b413812792d), but I prefer it to live here. It think it feels more at home._ 🤗
