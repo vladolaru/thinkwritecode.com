@@ -149,3 +149,9 @@ pre[data-line] {
   float: left;
   min-width: 100%;
 }
+
+.image-caption {
+    display: block;
+    text-align: center;
+    font-size: 0.8em;
+}
