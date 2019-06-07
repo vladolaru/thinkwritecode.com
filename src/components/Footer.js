@@ -12,6 +12,13 @@ class Footer extends React.Component {
         }}
       >
         <a
+          href="/rss.xml"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          rss feed
+        </a> &bull;{' '}
+        <a
           href="https://twitter.com/vladpotter"
           target="_blank"
           rel="noopener noreferrer"

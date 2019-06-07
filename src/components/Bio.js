@@ -28,7 +28,7 @@ function Bio() {
               }}
             />
             <p>
-              Personal blog by <a href={`https://twitter.com/${social.twitter}`}>{author}</a>.
+              Personal (professional) blog by <a href={`https://twitter.com/${social.twitter}`}>{author}</a>.
               <br/>
               Thinking about many things, writing about some of them, and maybe put some code to work.
             </p>
