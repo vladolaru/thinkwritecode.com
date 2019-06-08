@@ -39,6 +39,7 @@ class Footer extends React.Component {
         >
           linkedin
         </a>
+        <br/><small>© 2019 Vlad Olaru &bull;{' '} Made with Gatsby, hosted on Netlify</small>
       </footer>
     )
   }
