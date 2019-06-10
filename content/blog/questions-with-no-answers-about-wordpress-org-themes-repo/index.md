@@ -44,7 +44,7 @@ I agree that **the upselling process** should be decent, respectful, and, most o
 
 Lastly, being the author of a theme in the repo should be **a badge of honor,** not just a sign of being able to _obediently_ follow a set of (often unclear) guidelines. One should be proud and willing to add it to its CV, to its social media description, T-shirts should be printed (or given away), fulfillment all around. 
 
-Second lastly... At WordCamp Europe 2018, in Belgrade, many seemed to speak about the end of the "developer era," and the start of a new cycle where the WordPress community is open to **designers, marketers, community builders… **you know, anyone other than developers. I was ecstatic upon seeing that fire gain strength (I am a developer).
+Second lastly... At WordCamp Europe 2018, in Belgrade, many seemed to speak about the end of the "developer era," and the start of a new cycle where the WordPress community is open to **designers, marketers, community builders…** you know, anyone other than developers. I was ecstatic upon seeing that fire gain strength (I am a developer).
 
 But, how could this become a reality when **the most attractive thing** for a large part of them – the themes aka _the stuff you see_ – is so entrenched in the realities of the past, so resistant to making bold steps towards a more inclusive future? Just about everything floats in a sea of developer “stuff”: from SVN and Track, readme validators and theme checks, to escaping, sanitizing, i18n-ing, a11y-ing, you name it.
 
