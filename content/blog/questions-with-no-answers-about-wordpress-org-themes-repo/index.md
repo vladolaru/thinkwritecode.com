@@ -16,7 +16,7 @@ Now, to get to the **fundamental question**: what is the mission of the WordPres
 
 People who wish to set up or maintain an online presence, either for personal pleasure or for commercial interests, have _a set of needs, a vision, a set of goals_ they strive to achieve. They don't really care about themes, plugins, and not even WordPress at the end of the day. They care about **solutions that _care_ about their own needs,** regardless if they need to pay or get for free.
 
-I can sympathize (but not agree) with the direction developers, either working as freelancers or in an agency environment, strive to enforce and sustain: _our life is so much easier if these pesky themes stop doing anything other than styling, and leave it up to plugins to provide each functional building block – we are more than capable of choosing the right plugins for the job._ If only WordPress was a project aimed at professionals. The last I heard of, it wasn't – it was about “democratizing publishing” and making it easy for anyone to speak up and own its place on the web.
+I can sympathize (but not agree) with the direction developers, either working as freelancers or in an agency environment, wish to enforce and sustain: _our life would be so much easier if these pesky themes stop doing anything other than styling, and leave it up to plugins to provide each functional building block – we are more than capable of choosing the right plugins for the job._ If only WordPress was a project aimed at professionals. The last I heard of, it wasn't – it was about “democratizing publishing” and making it easy for anyone to speak up and own its place on the web.
 
 ---
 
