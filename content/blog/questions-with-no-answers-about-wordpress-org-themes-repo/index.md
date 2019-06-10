@@ -4,9 +4,9 @@ date: '2019-06-10T15:32:00Z'
 spoiler: "It will take a lot of small steps in the right direction. It will take a lot of honest people and businesses to jump in and lend a hand. But if we genuinely care about the future of WordPress and that of the open web, do we really have a choice? From what I see, the alternative would be to let the repository drift away and become obsolete. Some will profit from this, but definitely not WordPress(.org) and end users."
 ---
 
-This post was originally a [large] reply in the WordPress.org Themes Review Slack channel. My attempt at _raising awareness_ about the _fundamental problems_ I see lurking just beneath the surface in the WordPress ecosystem (starting with themes, but not limited to them). 
+This post was originally a [large] reply in the WordPress.org Themes Review Slack channel. It is my attempt at _raising awareness_ about the _fundamental problems_ I see lurking just beneath the surface in the WordPress ecosystem (starting with themes, but not limited to them). 
 
-I believed my thoughts deserved a better place than Slack, a place to breathe a little.
+I believe my thoughts deserved a better place than Slack, a place to breathe and refine a little. So here they are.
 
 ---
 
