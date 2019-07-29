@@ -1,6 +1,6 @@
 module.exports = {
   siteMetadata: {
-    title: `Think.Write.Code.`,
+    title: `Think. Write. Code.`,
     author: `Vlad Olaru`,
     description: `Personal (professional) blog by Vlad Olaru.`,
     siteUrl: `https://thinkwritecode.com`,
@@ -121,7 +121,7 @@ module.exports = {
         short_name: `T.W.C.`,
         start_url: `/`,
         background_color: `#ffffff`,
-        theme_color: `#FF6F61`,
+        theme_color: `hsl(23.3, 99%, 60%)`,
         display: `minimal-ui`,
         icon: `content/assets/icon.png`,
       },

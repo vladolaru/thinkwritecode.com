@@ -6,6 +6,12 @@ exports.createPages = ({ graphql, actions }) => {
 
   return new Promise((resolve, reject) => {
     const blogPost = path.resolve(`./src/templates/blog-post.js`)
+
+    createPage({
+      path: '/',
+      component: path.resolve('./src/templates/blog-index.js'),
+    });
+
     resolve(
       graphql(
         `

@@ -6,6 +6,11 @@ import Layout from '../components/Layout'
 import SEO from '../components/seo'
 import { formatReadingTime } from '../utils/helpers'
 import { rhythm, scale } from '../utils/typography'
+import Signup from '../components/Signup'
+
+const systemFont = `system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI",
+    "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans",
+    "Droid Sans", "Helvetica Neue", sans-serif`;
 
 class BlogPostTemplate extends React.Component {
   render() {
@@ -20,67 +25,85 @@ class BlogPostTemplate extends React.Component {
           description={post.frontmatter.spoiler}
           slug={post.fields.slug}
         />
-        <h1>{post.frontmatter.title}</h1>
-        <p
-          style={{
-            ...scale(-1 / 5),
-            display: `block`,
-            marginBottom: rhythm(1),
-            marginTop: rhythm(-1),
-          }}
-        >
-          {post.frontmatter.date}
-          {` • ${formatReadingTime(post.timeToRead)}`}
-        </p>
-        <div dangerouslySetInnerHTML={{ __html: post.html }} />
-        <hr
-          style={{
-            marginBottom: rhythm(1),
-          }}
-        />
-        <h3
-          style={{
-            fontFamily: 'Montserrat, sans-serif',
-            marginTop: rhythm(0.25),
-          }}
-        >
-          <Link
+        <main>
+          <article>
+            <header>
+              <h1>{post.frontmatter.title}</h1>
+              <p
+                style={{
+                  ...scale(-1 / 5),
+                  display: `block`,
+                  marginBottom: rhythm(1),
+                  marginTop: rhythm(-1),
+                }}
+              >
+                {post.frontmatter.date}
+                {` • ${formatReadingTime(post.timeToRead)}`}
+              </p>
+            </header>
+            <div dangerouslySetInnerHTML={{ __html: post.html }} />
+            <footer>
+              {/*<hr*/}
+              {/*  style={{*/}
+              {/*    marginBottom: rhythm(1),*/}
+              {/*  }}*/}
+              {/*/>*/}
+            </footer>
+          </article>
+        </main>
+        <aside>
+          <div
             style={{
-              boxShadow: 'none',
-              textDecoration: 'none',
-              color: '#FEA166',
+              margin: '90px 0 40px 0',
+              fontFamily: systemFont,
             }}
-            to={'/'}
           >
-            {siteTitle}
-          </Link>
-        </h3>
-        <Bio />
+            <Signup />
+          </div>
+          <h3
+            style={{
+              fontFamily: 'Montserrat, sans-serif',
+              marginTop: rhythm(0.25),
+            }}
+          >
+            <Link
+              style={{
+                boxShadow: 'none',
+                textDecoration: 'none',
+                color: 'hsl(23.3, 99%, 60%)',
+              }}
+              to={'/'}
+            >
+              {siteTitle}
+            </Link>
+          </h3>
+          <Bio />
 
-        <ul
-          style={{
-            display: `flex`,
-            flexWrap: `wrap`,
-            justifyContent: `space-between`,
-            listStyle: `none`,
-            padding: 0,
-          }}
-        >
-          <li>
-            {previous && (
-              <Link to={previous.fields.slug} rel="prev">
-                ← {previous.frontmatter.title}
-              </Link>
-            )}
-          </li>
-          <li>
-            {next && (
-              <Link to={next.fields.slug} rel="next">
-                {next.frontmatter.title} →
-              </Link>
-            )}
-          </li>
-        </ul>
+          <ul
+            style={{
+              display: `flex`,
+              flexWrap: `wrap`,
+              justifyContent: `space-between`,
+              listStyle: `none`,
+              padding: 0,
+            }}
+          >
+            <li>
+              {previous && (
+                <Link to={previous.fields.slug} rel="prev">
+                  ← {previous.frontmatter.title}
+                </Link>
+              )}
+            </li>
+            <li>
+              {next && (
+                <Link to={next.fields.slug} rel="next">
+                  {next.frontmatter.title} →
+                </Link>
+              )}
+            </li>
+          </ul>
+        </aside>
       </Layout>
     )
   }

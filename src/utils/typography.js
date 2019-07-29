@@ -1,9 +1,9 @@
 import Typography from 'typography'
-import Wordpress2016 from 'typography-theme-wordpress-2016'
+import Wordpress2015 from 'typography-theme-wordpress-2015'
 
-Wordpress2016.overrideThemeStyles = () => ({
+Wordpress2015.overrideThemeStyles = () => ({
   a: {
-    color: '#FF6F61',
+    color: 'hsl(23.3, 99%, 55%)',
   },
   'a.gatsby-resp-image-link': {
     boxShadow: 'none',
@@ -19,10 +19,10 @@ Wordpress2016.overrideThemeStyles = () => ({
   },
 })
 
-delete Wordpress2016.googleFonts
+delete Wordpress2015.googleFonts
 
-Wordpress2016.scaleRatio = 2.45 // was 2.
-const typography = new Typography(Wordpress2016)
+Wordpress2015.scaleRatio = 2.45 // was 2.
+const typography = new Typography(Wordpress2015)
 
 
 // Hot reload typography in development.

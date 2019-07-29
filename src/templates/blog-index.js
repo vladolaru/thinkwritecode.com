@@ -8,7 +8,7 @@ import Footer from '../components/Footer'
 import { formatReadingTime } from '../utils/helpers'
 import { rhythm } from '../utils/typography'
 
-class BlogIndex extends React.Component {
+class BlogIndexTemplate extends React.Component {
   render() {
     const { data } = this.props
     const siteTitle = data.site.siteMetadata.title
@@ -17,37 +17,48 @@ class BlogIndex extends React.Component {
     return (
       <Layout location={this.props.location} title={siteTitle}>
         <SEO />
-        <Bio />
+        <aside>
+          <Bio />
+        </aside>
+        <main>
         {posts.map(({ node }) => {
           const title = node.frontmatter.title || node.fields.slug
           return (
-            <div key={node.fields.slug}>
-              <h3
+            <article key={node.fields.slug}>
+              <header
                 style={{
-                  marginBottom: rhythm(1 / 4),
+                  marginBottom: rhythm(2 / 4),
                 }}
               >
-                <Link style={{ boxShadow: `none` }} to={node.fields.slug}>
-                  {title}
-                </Link>
-              </h3>
-              <small>
-                {node.frontmatter.date}
-                {` • ${formatReadingTime(node.timeToRead)}`}
-              </small>
+                <h3
+                  style={{
+                    marginBottom: 0,
+                    lineHeight: 1.2
+                  }}
+                >
+                  <Link style={{ boxShadow: `none`, textDecoration: `none` }} to={node.fields.slug}>
+                    {title}
+                  </Link>
+                </h3>
+                <small>
+                  {node.frontmatter.date}
+                  {` • ${formatReadingTime(node.timeToRead)}`}
+                </small>
+              </header>
               <p
                 dangerouslySetInnerHTML={{ __html: node.frontmatter.spoiler }}
               />
-            </div>
+            </article>
           )
         })}
+        </main>
         <Footer />
       </Layout>
     )
   }
 }
 
-export default BlogIndex
+export default BlogIndexTemplate
 
 export const pageQuery = graphql`
   query {
