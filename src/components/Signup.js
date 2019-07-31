@@ -6,13 +6,12 @@ class Signup extends React.Component {
   render() {
     return (
       <form
-        style={{
-        }}
-        className="seva-form formkit-form"
-        action="https://tinyletter.com/thinkwritecode"
+        className="formkit-form validate"
+        id="mc-embedded-subscribe-form"
+        name="mc-embedded-subscribe-form"
+        action="https://thinkwritecode.us3.list-manage.com/subscribe/post?u=7f0fbbd4b421fd3424aa85beb&amp;id=d202bf397d"
         method="post"
-        target="popupwindow"
-        onSubmit= {() => { window.open('https://tinyletter.com/thinkwritecode', 'popupwindow', 'scrollbars=yes,width=800,height=600');return true}}
+        target="_blank"
       >
         <div data-style="full">
           <div
@@ -44,11 +43,11 @@ class Signup extends React.Component {
               <div className="formkit-field">
                 <input
                   className="formkit-input"
-                  name="email"
-                  id="tlemail"
+                  name="EMAIL"
+                  id="mce-EMAIL"
                   aria-label="Your email address"
                   placeholder="Your email address"
-                  required=""
+                  required={true}
                   type="email"
                   style={{
                     borderColor: 'rgb(227, 227, 227)',
@@ -58,14 +57,25 @@ class Signup extends React.Component {
                   }}
                 />
               </div>
-              <input
-                type="hidden"
-                value="1"
-                name="embed"
-              />
+              <div
+                style={{
+                  position: 'absolute',
+                  left: '-5000px'
+                }}
+                aria-hidden="true"
+              >
+                <input
+                  type="text"
+                  name="b_7f0fbbd4b421fd3424aa85beb_d202bf397d"
+                  tabIndex="-1"
+                  value=""
+                />
+              </div>
               <button
                 type="submit"
                 className="formkit-submit formkit-submit"
+                id="mc-embedded-subscribe"
+                name="subscribe"
                 style={{
                   backgroundColor: 'hsl(23.3, 99%, 65%)',
                   borderRadius: '24px',
