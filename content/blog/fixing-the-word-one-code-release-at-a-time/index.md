@@ -20,7 +20,6 @@ My sincere, direct answer to this is: _fuck developers, programmers, software en
 
 What follows it my attempt at ringing a few, much needed alarm bells in the consciousness of any digital dweller, but primarily in the heads of those I just cursed. I hope you can stomach a little cursing when the situation calls for. 
 
-
 ## A different kind of creator
 
 If you have a developer around, take a good look at him. You are in the vicinity of a little undercover God, regardless if he or she (but mostly he) knows it. From the tips of those fingers extremely powerful things can emerge.
@@ -32,7 +31,6 @@ You may say that their creations are not actually real the same way a building, 
 This could be great if not for a little side effect. It is all too easy to lack any sort of feeling of responsibility to the outside world. You and your creation can develop your very own morality and ethics bubble since seemingly nothing from the outside contributed to your little love affair. As Nassim Nicholas Taleb so skillfully portrayed it in his book [Skin in the Game](https://www.goodreads.com/book/show/36064445-skin-in-the-game), [developers] suffer from a severe lack of _skin in the game._ The same chronic condition financial workers and institutions exhibited ever since they started making money out of thin air (developers are not the only undercover Gods).
 
 Now, why would well-intentioned developers (not evil financiers) not realize this and correct course? They are clearly capable of understanding abstract, complicated things.
-
 
 ## The age of developers 
 
@@ -50,7 +48,6 @@ Does this mean that people love or hate faster? That you are disappointed or exa
 
 Oh, if you are wondering where do coders go when they age (they must age, right?), there is a place made specifically for them. It’s called [management](https://onezero.medium.com/ctrl-alt-delete-the-planned-obsolescence-of-old-coders-9c5f440ee68).
 
-
 ## A change of scale
 
 All of this would not be so worrisome if we kept the scale of previous centuries. Sure, young daredevils left their mark on our world, mainly through industry and war. But the scale and pace of their ambitions allowed the rest of society to take in the consequences (like climate change) and decide what to do about them. Sadly, society’s responses were often less than satisfactory, but we couldn’t say there weren’t ample opportunities to do something if we so wished.
@@ -62,7 +59,6 @@ As if this wasn't enough to complicate our reality, the areas developers are aim
 Just consider how the top results on Google or posts in the Facebook feed are _the authoritative_ source of truth for the majority of us. It doesn’t matter much if you don’t know anything about the person or entity portraying those truths, because in a uber-connected world how could you possibly know everyone? Given the constant time pressure, we are forced to defer responsibility and trust to the gatekeeper.
 
 I struggle with this each time I do an online search: are the reasons Google pushed this result in front of my eyes aligned with the characteristics I believe necessary for a reliable source of information? Often, I am left guessing and taking unnecessary risks.
-
 
 ## A change in complexity 
 
@@ -82,14 +78,13 @@ A sane response to all this complexity would be to build anything of importance 
 
 More often than not, resilience is simply out of radar. Hell, it is even frowned upon since it implies we might not know everything (again that imposter syndrome). To make it even less palatable, it stinks of inefficiency, the archenemy of every self-respecting developer.
 
-
 ## A change in preoccupations 
 
 There is a deafening silence among the profession when it comes to _humanities._ As Seymour Papert put it in his awesome book [Mindstorms](https://www.goodreads.com/book/show/703532.Mindstorms), there is a schizophrenic split between “humanities” and “sciences”. And for “good” reason: it is not in the job description! We are all just normal people with a knack for computers. We can't all be expected to be polymaths. Then, why do we behave like ones? Why don't we realize our natural limitations and bring on board people with perspectives to supplement our own? No one would demeanor us. No one would think less of our technical prowess. No one would pay us less. No one would have to suffer at the expense of us playing God.
 
 It certainly isn't a place of comfort, certainty, or infallibility. It's a place of constant doubt, uncertainty, and vulnerability. But then again, isn't that how it should feel when you want to solve the problems of a world full of people? “Move fast and break things” may work to some extent for industrial exploration and expansion, but certainly not for “connecting all the people” or “democratize publishing”.
 
-–-
+---
 
 The domain of this problem is vast, multifaceted, with many, many unknowns. So I will pause for now and give you time to take in my wandering thoughts, leaving you with some resemblance of solutions.
 
