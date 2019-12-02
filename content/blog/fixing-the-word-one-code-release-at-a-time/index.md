@@ -18,7 +18,7 @@ With copious amounts of passion, determination, and glee, developers have blesse
 
 My sincere, direct answer to this is: _fuck developers, programmers, software engineers, and any nuance they may adhere to. I am also one of them, so fuck me too._
 
-What follows it my attempt at ringing a few, much needed alarm bells in the consciousness of any digital dweller, but primarily in the heads of those I just cursed. I hope you can stomach a little cursing when the situation calls for. 
+What follows is my attempt at ringing a few, much needed alarm bells in the consciousness of any digital dweller, but primarily in the heads of those I just cursed. I hope you can stomach a little cursing when the situation calls for. 
 
 ## A different kind of creator
 
@@ -42,9 +42,9 @@ Vlad, that is easy! Just imagine a more capable, fully committed person able to 
 
 All the people in history we would consider game changers by today's standards had their incubation period as young adults, a few stints in their middle age, and delivered their main gift to the world in the latter part of their life. They lived a little _before_ expecting to change the lives of others. They accumulated real-life experiences, their thoughts distilled and hardened over the years, their intuition honed through a lifetime of mistakes. That is what I call _wisdom._ And you can't gain it through a book or by talking to wise people, even those close to you. You need to let time pass over you and all that you are.
 
-Now, look at where we are today in this God-ridden world. We’ve come to believe that since we have far more knowledge at our fingertips, since we can gather data about a multitude of perspectives on any given subject (hence understand it to some extent), we consequently live faster lives, at least in our heads. So, we are entitled to tackle the same problems at a younger age than previously thought suitable. As Zuckerberg bluntly put it in his twenties: “Younger people are just smarter.” The median age at top tech companies [speaks volumes](https://www.payscale.com/data-packages/top-tech-companies-compared/tech-salaries) about this reality. 
+Now, look at where we are today in this God-ridden world. We’ve come to believe that since we have far more knowledge at our fingertips, since we can gather data about a multitude of perspectives on any given subject (hence understand it to some extent), we consequently live faster lives, at least on a mental timescale. So, we are entitled to tackle the same problems at a younger age than previously thought suitable. As Zuckerberg bluntly put it in his twenties: “Younger people are just smarter.” The median age at top tech companies [speaks volumes](https://www.payscale.com/data-packages/top-tech-companies-compared/tech-salaries) about this reality. 
 
-Does this mean that people love or hate faster? That you are disappointed or exalted faster? That you go through different emotional states quicker? I very much doubt that all physical, mental, and psychological health considered equal. 
+Does this mean that people love or hate faster? That you are disappointed or exalted faster? That you go through different emotional states quicker? I very much doubt that, all physical, mental, and psychological health considered equal. 
 
 Oh, if you are wondering where do coders go when they age (they must age, right?), there is a place made specifically for them. It’s called [management](https://onezero.medium.com/ctrl-alt-delete-the-planned-obsolescence-of-old-coders-9c5f440ee68).
 
