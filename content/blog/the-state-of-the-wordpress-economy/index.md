@@ -1,7 +1,7 @@
 ---
 title: "The State of the WordPress economy"
 date: '2019-12-05T01:24:08Z'
-spoiler: "Join me in _an exploration_ of the forces, trends, and future developments of the WordPress open-source ecosystem. I aim at helping myself and you get a clearer picture about the reality of the WordPress world, however fair or unfair things may seem. I believe we each need as much clarity as possible if we are to help progress WordPress, and the web at large, in a meaningful way."
+spoiler: "Join me in an exploration of the forces, trends, and future developments of the WordPress open-source ecosystem. I aim at helping myself and you get a clearer picture about the reality of the WordPress world, however fair or unfair things may seem. I believe we each need as much clarity as possible if we are to help progress WordPress, and the web at large, in a meaningful way."
 ---
 
 First of all, some _clues_ about my background so you can gauge _the biases_ that may push me in certain directions. I've been working with WordPress in one form or another for the past ten years. Going back about six years, WordPress has been my primary focus through my work at [Pixelgrade](https://pixelgrade.com/) (co-founder and CTO), a niche maker and seller of premium WordPress themes. 
