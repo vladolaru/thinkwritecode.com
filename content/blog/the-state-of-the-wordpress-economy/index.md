@@ -20,7 +20,7 @@ The cornerstone of any open-source ecosystem is its software license, a veritabl
 
 I've struggled a great deal in the past two years with the philosophy of the GPL, it's economic and community implications, and, ultimately it's view of human nature. Today, I am _firmly_ in the camp of [Eric S. Raymond](https://www.linuxjournal.com/article/9911) and [David Heinemeier Hansson _aka_ DHH](https://m.signalvnoise.com/open-source-beyond-the-market/) concerning the alignment of GPL with today's software landscape: it makes little sense for **ideological and economic conditions of the 1980s** (as seen by a brilliant, but [awfull man](https://www.wired.com/story/richard-stallmans-exit-heralds-a-new-era-in-tech/)) to shape today's collaborations and solutions (30 years later _aka_ a couple of centuries in Internet time).
 
-_Note: If you are after a deep, deep dive into the history, concepts, and biases behind the creation of the GPL by Richard Stallman (Free Software Foundation), I highly recommend [Labyrinth of Software Freedom](http://www.softpanorama.org/Copyright/License_classification/index.shtml) by Nikolai Bezroukov. The site's styling is lack-luster at best, but the content is solid and quite enjoyable._
+_Note: If you are after a deep, deep dive into the history, concepts, and biases behind the creation of the GPL by Richard Stallman (Free Software Foundation), I highly recommend [Labyrinth of Software Freedom](http://www.softpanorama.org/Copyright/License\_classification/index.shtml) by Nikolai Bezroukov. The site's styling is lack-luster at best, but the content is solid and quite enjoyable._
 
 ## Making a living in a GPL world
 
