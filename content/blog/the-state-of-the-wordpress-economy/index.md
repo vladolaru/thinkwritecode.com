@@ -18,6 +18,16 @@ My exposure to the WordPress economy has been quite wide starting with custom cl
 
 Now that you have a sense of my experience in the WordPress space, join me in _an exploration_ of the forces, trends, and future developments of this open-source ecosystem. The open-source basis is important because I believe **WordPress is a prime example** of the dynamics that naturally emerge in ** any open-source software project.** Much of what follows ultimately ties back to this.
 
+## What is the WordPress economy
+
+For me, **an economy boils down to value,** most importantly to _perceived value._ With this in mind, the WordPress economy is comprised of all those **individuals or companies that provide to or derive value from the WordPress project.** 
+
+Customers that pay for a service or product are only one part of this economy. Just as important are core contributors (designers, developers, project managers, content writers, translators), community builders and advocates, legal advisers, WordCamps organizers and volunteers, meetups organizers, and the list could go on and on. 
+
+On equal footing, we have the various individuals and companies that provide services around WordPress, create products to be used alongside it, and distribute those products to end-users. It matters very little if money exchanges hands. What matters is that value gets added and distributed in the ecosystem.
+
+Places like WordPress.com, ThemeForest.net are clearly part of this economy, along with various agencies and themes or plugins shops. What people are not so clear about is whether WordPress.org is part of it. In keeping with above, WordPress.org is definitely part of the WordPress economy as the de-facto free marketplace for everything WordPress. As long as they are defining admission rules regarding code quality and security, managing the review and listing of approved items, and distributing them in the form of ready-to-use products, **this makes WordPress.org a clear marketplace, not simply a code repository** (that is what Github does).
+
 ## A little thing called GPL
 
 The cornerstone of any open-source ecosystem is its software license — think of it as a social contract or bill of rights. WordPress adopted the [GNU General Public License](https://en.wikipedia.org/wiki/GNU_General_Public_License) (GPL for short). This license has some very clear and powerful characteristics:
