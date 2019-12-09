@@ -1,7 +1,7 @@
 ---
 title: "The State of the WordPress Economy"
 date: '2019-12-05T01:24:08Z'
-spoiler: "Join me in an exploration of the forces, trends, and future developments of the WordPress open-source ecosystem. I aim at helping myself and you get a clearer picture about the reality of the WordPress world, however fair or unfair things may seem. I believe we each need as much clarity as possible if we are to help progress WordPress, and the web at large, in a meaningful way."
+spoiler: "Join me in an exploration of the forces, trends, and future developments of the WordPress open-source ecosystem. I aim at helping myself and you get a clearer picture about the reality of the WordPress world, however fair or unfair things may seem. We each need as much clarity as possible if we are to help progress WordPress, and the web at large, in a meaningful way."
 ---
 
 Today, the WordPress economy, a vital part of the ecosystem, is experiencing some severe growing pains. Long ignored imbalances, obsolete beliefs, and governance vacuums, to name a few, coupled with monopolistic and polarizing tendencies of the greater digital economy, threaten to completely change the nature of WordPress. 
@@ -20,13 +20,13 @@ Now that you have a sense of my experience in the WordPress space, join me in _a
 
 ## What is the WordPress economy
 
-For me, **an economy boils down to value,** most importantly to _perceived value._ With this in mind, the WordPress economy is comprised of all those **individuals or companies that provide to or derive value from the WordPress project.** 
+For me, **an economy is all about value,** most importantly, _perceived value._ With this in mind, the WordPress economy is comprised of all those **individuals or companies that provide to or derive value from the WordPress project.** 
 
 Customers that pay for a service or product are only one part of this economy. Just as important are core contributors (designers, developers, project managers, content writers, translators), community builders and advocates, legal advisers, WordCamps organizers and volunteers, meetups organizers, and the list could go on and on. 
 
 On equal footing, we have the various individuals and companies that provide services around WordPress, create products to be used alongside it, and distribute those products to end-users. It matters very little if money exchanges hands. What matters is that value gets added and distributed in the ecosystem.
 
-Places like WordPress.com, ThemeForest.net are clearly part of this economy, along with various agencies and themes or plugins shops. What people are not so clear about is whether WordPress.org is part of it. In keeping with above, WordPress.org is definitely part of the WordPress economy as the de-facto free marketplace for everything WordPress. As long as they are defining admission rules regarding code quality and security, managing the review and listing of approved items, and distributing them in the form of ready-to-use products, **this makes WordPress.org a clear marketplace, not simply a code repository** (that is what Github does).
+Places like WordPress.com, ThemeForest.net are clearly part of this economy, along with various agencies and themes or plugins shops. What people are not so clear about is _whether WordPress.org is part of it._ In keeping with the above, WordPress.org is definitely part of the WordPress economy as **the de facto free marketplace for everything WordPress.** As long as they are defining admission rules regarding code quality and security, managing the review and listing of approved items, and distributing them in the form of ready-to-use products, **this makes WordPress.org a clear marketplace, not simply a code repository** (that is what Github does).
 
 ## A little thing called GPL
 
@@ -83,7 +83,7 @@ After years of interacting with customers of all kinds and helping them get the 
 
 ## Corporatize the anti-corporate
 
-The GPL was openly aimed at messing with (preferably destroying) the big, closed-source corporations of the 80s and 90s (think Microsoft, Oracle, IBM, etc.) in an attempt to save society from their evil clutches. It's the purest distillation of saying "Fuck you!" to a big tech corporation. Until the corporation, ever resourceful and farsighted, answers back with "Okay!"
+The GPL was openly aimed at messing with (preferably destroying) the big, closed-source corporations of the 80s and 90s (think Microsoft, Oracle, IBM, etc.) in an attempt to save society from their evil clutches. It's the purest distillation of saying "Fuck you!" to a big tech corporation. A worthwhile stance, at least until the corporation, ever resourceful and farsighted, answers back with "Okay!"
 
 Corporations realized that open-source software is actually a very big opportunity for them, with benefits in all the right places. Their instinctual fear of customers taking their software and walking away was far removed from reality. Customers actually didn't care, didn't have the technical skills to do the walking away, or knew how to bypass licensing logic and wouldn't give a damn about EULAs.
 
@@ -94,23 +94,25 @@ Open-source was ticking corporate boxes with surprising ease:
 - trustworthy security with mostly free peer-reviews;
 - great public relations with free marketing and employer branding.
 
-WordPress, as an open-source project, followed the same route, even picking up speed in recent years. It reached a point where the market economy is clearly leaning toward big corporations: hosting providers, Automattic (wordpress.com), and fellow large agencies serving enterprises, taking the spoils on one end, and freelancers or small teams doing consulting work, at the other end, fighting over scraps. There are few successful entities in the middle. The obvious middle players, themes and plugins shops, get acquired left and right — it's open season for Mergers & Aquisitions (M&A in corporate talk). 
+WordPress, as an open-source project, followed the same route, even picking up speed in recent years. It reached a point where the market economy is clearly leaning toward big corporations: hosting providers, Automattic (wordpress.com), and fellow large agencies serving enterprises, taking the spoils on one end, and freelancers or small teams doing consulting work, at the other end, fighting over scraps. There are few successful entities in the middle. 
+
+The obvious middle players, themes and plugins shops, get acquired left and right — it's open season for Mergers & Acquisitions (M&A, in corporate talk). Even here, the GPL lends a helping hand to bigger players looking make a purchase at the expense of makers: **product companies have little bargaining power during negotiations** since they can't actually value their products (prospective buyers could just fork them), only their brand, existing customer community, and their employees. 
 
 It sure seems like a far cry from "democratize publishing." More like "corporatize publishing."
 
 ## Brand over code
 
-As plainly stated by the GPL — if you look at it with your business glasses, code is _only_ destined to be poured into that big bucket called "the commons", creators losing all rights and most financial value. As long as the project "honors" developers with their contributor badge, all is forgiven. I find it hilarious that a software license meant to protect passionate, idealistic developers (and the world) from the onslaught of evil corporations, ends up stripping those same contributors' work of any meaningful value.
+As plainly stated by the GPL — if you look at it with your business glasses, code is _only_ destined to be poured into that big bucket called "the commons", creators losing all rights and most financial value. As long as the project "honors" developers with their contributor badge, all is forgiven. I find it hilarious that a software license meant to protect passionate, idealistic developers (and the world) from the onslaught of evil corporations, ends up stripping those same contributors' work of any _meaningful value._
 
-But value is like energy: it never gets lost, it only switches hands. If someone's work is discreetly stripped of ownership and value, someone else must be the recipient of that same value. Besides the community that gets to "graze" on a replenished "commons," **a fair amount of value goes to the brand of that particular project.**
+But value is like energy: it never gets lost, it only changes hands. If someone's work is discreetly stripped of ownership and value, someone else must be the recipient of that same value. Besides the community that gets to "graze" on a replenished "commons," **a fair amount of value goes to the brand of that particular project.**
 
 In today's digital landscape, the GPL license is proving to be just right for those who are after the brand of an open-source project, not its code. In the WordPress ecosystem, **the GPL is favorable only for platforms** like WordPress.com **and agencies** banking on the trust _WordPress the brand_ commands. Product creators benefit to some extent from the extended market size, but they have a much harder time _distinguishing their work_ from the _free WordPress core_ and _free WordPress.org marketplace_ sub-brands.
 
-_WordPress the brand_ has become much more powerful and valuable than _WordPress the code._ The WordPress community of developers, designers, marketers and users is **a massive marketing machine** for whoever is better positioned to capture brand value. 
+_WordPress the brand_ has become much more powerful and valuable than _WordPress the code._ The WordPress community of developers, designers, marketers and users is **a massive marketing machine** for whoever is better positioned to capture brand value.
 
-By now, it should come as no surprise that **Automattic has sole rights** to use _the WordPress trademark_ for [commercial purposes](http://wpandlegalstuff.com/using-wordpress-trademarks-business-product-service/) (it actually [was their trademark](https://wordpressfoundation.org/2010/trademark/) to being with). The other important entity with full rights to use the trademark is WordPress.org controlled by the CEO of Automattic through the WordPress Foundation. I don't know about you, but **to me, this game seems awfully rigged** when it comes to free-market competition.
+By now, it should come as no surprise that **Automattic has sole rights** to use _the WordPress trademark_ for [commercial purposes](http://wpandlegalstuff.com/using-wordpress-trademarks-business-product-service/) (it actually [was _their_ trademark](https://wordpressfoundation.org/2010/trademark/) to being with). The other important entity with full rights to use the trademark is WordPress.org controlled by the CEO of Automattic through the WordPress Foundation. I don't know about you, but **to me, this game seems awfully rigged** when it comes to free-market competition.
 
-If we turn our focus to _WordPress the code,_ the balance of power is the same, despite the thin veil of community control. The WordPress core is very much stale when it comes to meaningful changes to improve extensibility and contributions, hence give everyone a fairer chance to succeed. Just look into these areas or initiatives: WordPress dashboard, WordPress Fields API, WordPress block editor, to name a few. For those of you in the know, the WP-REST API doesn’t qualify since it is focused less on extensibility, but on data portability.
+If we turn our focus to _WordPress the code,_ the balance of power is the same, despite the thin veil of community control. The WordPress core is very much stale when it comes to meaningful changes to improve extensibility and contributions, hence give everyone a fairer chance to succeed. Just look into these areas or initiatives: the WordPress dashboard, WordPress Fields API, WordPress block editor, to name a few. For those of you in the know, the WP-REST API doesn’t qualify since it is focused less on extensibility, but on data portability.
 
 Looking at the way stuff got done in recent years, a lack of interest from Automattic or enterprise-focused agencies equaled a deafening silence among core committers and, consequently, lack of effort and focus. If any of them showed keen interest, this translated, almost overnight, into a massive push to get things done. **The perfect example of this state of affairs** is the surprising speed and efficiency with which the new block editor (Gutenberg) came into being [in the WordPress core].
 
@@ -118,28 +120,48 @@ I think it is fair to say that _the fortunes of WordPress are firmly in enterpri
 
 ## Winter is coming for WordPress plugins 
 
-Premium plugins, in stark contrast to premium WordPress themes, had a good ride this past couple of years. They've managed to keep and even increase their projected value while experimenting with more sustainable business models: monthly or mostly yearly subscriptions. It is fair to say that plugins have managed to increase their prices across the board.
+Premium plugins, in stark contrast to premium WordPress themes, had a good ride this past couple of years. They've managed to keep and even increase their projected value while experimenting with more sustainable business models: monthly or mostly yearly subscriptions. Plugins managed to increase their prices across the board, without much pushback from customers.
 
-I am afraid the good days are coming to an end for premium WordPress plugins. First, promising, platform-like plugins get scooped up and merged into the offerings of hosting services and wordpress.com. Second, many successful, functional plugins are either bought or replaced by similar solutions on platforms (hosting services are the main actors here). Third, successful page-builder plugins will only get bigger, bundling more and more functionality. 
+I am afraid the good days are coming to an end for premium WordPress plugins. First, promising, platform-like plugins get scooped up and merged into the offerings of hosting services and platforms like WordPress.com. Second, many successful, functional plugins are either bought or replaced by similar solutions on platforms (hosting services are the main actors here). Third, successful page-builder plugins will only get bigger, bundling more and more functionality. 
 
-That leaves only highly targeted plugins with a fighting chance of staying independent — and these are overwhelmingly technical in nature, aimed at site administrators.
+That leaves only highly targeted plugins with a fighting chance of staying independent — and these are overwhelmingly technical, primarily aimed at site administrators.
 
 ## Dismantling WordPress themes 
 
-Premium WordPress themes had their glory days until about three or four years back. I know since my team and I experienced it first hand. Sadly, neither I nor the larger community saw what was just around the corner. 
+Premium WordPress themes had their glory days until about three or four years back. I know this since my team and I experienced it first hand. Sadly, neither the broader community nor I saw what was just around the corner. 
 
-First, the market started a race-to-the-bottom pricing war, only benefitting platforms like Envato. Some of us stayed put and refused to engage. It made little difference since the customer's mind was hooked on ever-decreasing prices. Second, page-builders started to eat away the value-proposition of themes, cleverly tricked by the alure of integrating with them. Third, the new default block editor of WordPress (aka Gutenberg) is in the process of delivering the final blow to themes as we know them.
+First, the market started a race-to-the-bottom pricing war, only benefitting platforms like Envato. Some of us stayed put and refused to engage. It made little difference since **the customer's mind was hooked on ever-decreasing prices.** Second, **page-builders started to chip away the value-proposition of themes,** cleverly incentivizing them into ever-tighter integrations. Third, **the new default WordPress block editor** is in the process of delivering the final blow to themes as we know them.
 
-Themes seem to be targeted from all sides. There is a good reason for this onslaught: _design as a product is not aligned with the interests of large players in WordPress, and the web in general._ It is getting increasingly harder to sell design and nobody, besides themes, has any incentive to do that. The trend is to sell entire sites or solutions to specific problems. Design has become a selling vector for platforms and agencies, not a product in and of itself.
+Themes seem to be targeted from all sides. There is a good reason for this onslaught: _design as a product is not aligned with the interests of large players in WordPress, and the web in general._ It is getting increasingly harder to sell design, and nobody, besides themes, has any incentive to do that. The trend is to sell entire sites or solutions to specific problems. **Design has become a selling vector for platforms and agencies, not a product in and of itself,** despite the constant struggles of serious theme shops.
 
-The premium WordPress themes market is getting thinned out: on the low end, you have a massive upside for platforms (like WordPress.com, GoDaddy, Elementor) that don’t really need themes as products, but just decoupled, standardized, preferably free designs; on the high end, you have all the tools to build complex systems (Gutenberg, WP-REST API, platform-like plugins: WooCommerce), systems that can bear the costs of custom design work.
+The premium WordPress themes market is getting thinned out: on the low end, you have massive upsides for platforms (like WordPress.com, GoDaddy, Elementor) that don't really need themes as products, just decoupled, standardized, preferably free designs; on the high end, you have all the tools to build complex systems (Gutenberg, WP-REST API, platform-like plugins like WooCommerce), systems that can easily bear the costs of custom design work.
 
-Once Gutenberg delivers full-site editing capabilities and the block directory is in full swing, you can be sure themes will be reduced to merely providing a general, style-guide CSS. Few people will be willing to pay for that.
+Once Gutenberg delivers full-site editing capabilities, and the block directory is in full swing, you can be sure themes will be reduced to merely providing a general, style-guide CSS. Few people will be willing to pay for that.
 
-Unless **themes makers manage to take the initiative and do their own dismantling** before the ecosystem does it for them, times ahead are pretty grim. This process will take some serious _creativity, effort, and preferably collaboration_ between like-minded theme shops. I see **no other way to survive and thrive** in the new WordPress ecosystem.
+Unless **themes makers manage to take the initiative and do their own dismantling** before the ecosystem does it for them, times ahead are pretty grim. Without a doubt, this process will take some serious _creativity, effort, and preferably collaboration_ between like-minded theme shops. I see **no other way to at least survive and possibly thrive** in this new WordPress landscape.
+
+## Alternative futures
+
+I am not a fatalistic person, focused only on what is wrong with the world. I consider myself quite optimistic and fully aware that **the most likely future seems inevitable as long as nothing changes.** Things can change, and they should.
+
+Individual contributors, small and medium-sized companies, and well-intended customers are, in fact, _the overwhelming majority_ of this ecosystem. We should push for a much fairer representation structure by supporting initiatives like [the WordPress Governance Project](https://wpgovernance.com/). **Without regaining some control over decisions processes, this economy is at the mercy of few.**
+
+Each of us needs to **start paying more attention to our brands** through the way we communicate with our peers and our customers, through how consistent we are in our decisions on sensible topics, all the way to speaking up whenever we get the chance, with clarity and purpose. The WordPress ecosystem needs more diversity in strong brands that contribute to and influence its future.
+
+Each of us needs to **embrace our ability to walk away from WordPress.** It is liberating to know you can carve a destiny elsewhere if that is what you chose. It also gives added strength and importance to each of us, as we would no longer be sheep to be herded around.
+
+When it comes to alternate futures for WordPress plugins, I have little to offer today, besides the above.
+
+When considering other ways WordPress themes could contribute in the future, I have a few ideas. Themes authors [should engage](https://github.com/wordpress/gutenberg/issues) as much as they can with the current developments of the WordPress block editor, not so much through code, but clear arguments. 
+
+At the same time, we could _finally_ embrace what we've known for so long: **customers want a complete site solution from us, not just a layer of styling.** Don't let the WordPress.org purists tell you otherwise. In accepting this, we may discover _great bargaining power__ both in terms of pricing and in the overall economy.
+
+If we **make the mental leap from theme authors to site solutions providers,** I believe lots and lots of opportunities will open up — they were always there, but "theme authors" can't _dream_ about them, it's not in their nature. Site solutions providers, on the other hand, could consider advanced, cloud-based wizards to set up a niche site, easier to understand abstractions like Colors or Fonts Palettes, adaptive, two-way design systems for agencies workers and customers, modularized offering with easy to understand pricing. I could go on and on. 
+
+The crux of the matter is, despite all forces beyond our control, **the only real obstacle is our ability to think clearly and freely.** We are part of an open-source software project after all; clarity and freedom _should be central_ to the game.
 
 ---
 
-Good for you to have made it this far. I've given it my best to make this exploration of the WordPress economy useful to everyone involved. I've tried to refrain from placing blame on one actor or another since I aim at helping myself and you get a clearer picture about the reality of the WordPress world, however fair or unfair things may seem. 
+Thank you for sticking with me this long. I've given it my best to make this exploration of the WordPress economy useful to everyone involved, without placing much blame on one actor or another. My goal is to understand the WordPress world for what it is while exploring what could be different. 
 
-I believe we each need as much clarity as possible if we are to help progress WordPress, and the web at large, in a meaningful way.
+We need as much clarity in our minds and strength in our voices as possible if we are to help progress WordPress, and the web at large, in a meaningful way.
