@@ -23,6 +23,7 @@ class BlogPostTemplate extends React.Component {
         <SEO
           title={post.frontmatter.title}
           description={post.frontmatter.spoiler}
+          image={post.frontmatter.featuredImage ? post.frontmatter.featuredImage.childImageSharp.sizes.src : false}
           slug={post.fields.slug}
         />
         <main>
@@ -127,7 +128,14 @@ export const pageQuery = graphql`
       frontmatter {
         title
         date(formatString: "MMMM DD, YYYY")
-        spoiler
+        spoiler,
+        featuredImage {
+            childImageSharp{
+              sizes(maxWidth: 720) {
+                src
+              }
+            }
+          }
       }
       fields {
         slug

@@ -1,6 +1,7 @@
 ---
 title: "The State of the WordPress Economy"
 date: '2019-12-05T01:24:08Z'
+featuredImage: './state-of-the-wordpress-economy-chart.jpg'
 spoiler: "Join me in an exploration of the forces, trends, and future developments of the WordPress open-source ecosystem. I aim at helping myself and you get a clearer picture about the reality of the WordPress world, however fair or unfair things may seem. We each need as much clarity as possible if we are to help progress WordPress, and the web at large, in a meaningful way."
 ---
 

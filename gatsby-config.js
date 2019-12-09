@@ -105,6 +105,13 @@ module.exports = {
                         title
                         date
                         spoiler
+                        featuredImage {
+                          childImageSharp{
+                            sizes(maxWidth: 720) {
+                              src
+                            }
+                          }
+                        }
                       }
                     }
                   }
