@@ -10,13 +10,13 @@ Unless more of us start to consider a wider viewpoint, start discussing openly a
 
 This is me doing my part. I hope it helps.
 
----
+![WordPress logo restyled as a pie chart graph](./state-of-the-wordpress-economy-chart.png)<span class="image-caption">Illustration by: [Mihaela Olaru](https://www.instagram.com/elaolaru/)</span>
 
 First of all, some _clues_ about my background so you can gauge _the biases_ that may push me in certain directions. I've been working with WordPress in one form or another for the past ten years. Going back about six years, WordPress has been my primary focus through my work at [Pixelgrade](https://pixelgrade.com/) (co-founder and CTO), a niche maker and seller of premium WordPress themes. 
 
 My exposure to the WordPress economy has been quite wide starting with custom client work, continuing with products on [ThemeForest](https://themeforest.net) (an Envato marketplace), then expanding to [WordPress.com](https://wordpress.com), finishing with directly selling themes through a self-hosted shop at [pixelgrade.com](https://pixelgrade.com/) and distributing free WordPress themes through [WordPress.org](https://wordpress.org).
 
-Now that you have a sense of my experience in the WordPress space, join me in _an exploration_ of the forces, trends, and future developments of this open-source ecosystem. The open-source basis is important because I believe **WordPress is a prime example** of the dynamics that naturally emerge in ** any open-source software project.** Much of what follows ultimately ties back to this.
+Now that you have a sense of my experience in the WordPress space, join me in _an exploration_ of the forces, trends, and future developments of this open-source ecosystem. The open-source basis is important because I believe **WordPress is a prime example** of the dynamics that naturally emerge in **any open-source software project.** Much of what follows ultimately ties back to this.
 
 ## What is the WordPress economy
 
@@ -152,11 +152,11 @@ Each of us needs to **embrace our ability to walk away from WordPress.** It is l
 
 When it comes to alternate futures for WordPress plugins, I have little to offer today, besides the above.
 
-When considering other ways WordPress themes could contribute in the future, I have a few ideas. Themes authors [should engage](https://github.com/wordpress/gutenberg/issues) as much as they can with the current developments of the WordPress block editor, not so much through code, but clear arguments. 
+When considering other ways WordPress themes could contribute in the future, I have a few ideas. Themes authors [should engage](https://github.com/wordpress/gutenberg/issues) as much as they can with the current developments of the WordPress block editor, not so much through code, but _clear arguments._ 
 
-At the same time, we could _finally_ embrace what we've known for so long: **customers want a complete site solution from us, not just a layer of styling.** Don't let the WordPress.org purists tell you otherwise. In accepting this, we may discover _great bargaining power__ both in terms of pricing and in the overall economy.
+At the same time, we could _finally_ embrace what we've known for so long: **customers want a complete site solution from us, not just a layer of styling.** Don't let the WordPress.org purists tell you otherwise. In accepting this, we may discover _great bargaining power_ both in terms of pricing and in the overall economy.
 
-If we **make the mental leap from theme authors to site solutions providers,** I believe lots and lots of opportunities will open up — they were always there, but "theme authors" can't _dream_ about them, it's not in their nature. Site solutions providers, on the other hand, could consider advanced, cloud-based wizards to set up a niche site, easier to understand abstractions like Colors or Fonts Palettes, adaptive, two-way design systems for agencies workers and customers, modularized offering with easy to understand pricing. I could go on and on. 
+If we **make the mental leap from theme authors to site solutions providers,** I believe lots and lots of opportunities will open up — they were always there, but "theme authors" can't _dream_ about them, it's not in their nature. **Site solutions providers,** on the other hand, could consider advanced, cloud-based wizards to set up a niche site, easier to understand abstractions like Colors or Fonts Palettes, adaptive, two-way design systems for agencies workers and customers, modularized offering with easy to understand pricing. I could go on and on. 
 
 The crux of the matter is, despite all forces beyond our control, **the only real obstacle is our ability to think clearly and freely.** We are part of an open-source software project after all; clarity and freedom _should be central_ to the game.
 
