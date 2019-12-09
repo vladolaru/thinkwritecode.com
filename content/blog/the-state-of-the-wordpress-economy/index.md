@@ -1,8 +1,8 @@
 ---
 title: "The State of the WordPress Economy"
 date: '2019-12-05T01:24:08Z'
-featuredImage: './state-of-the-wordpress-economy-chart.jpg'
 spoiler: "Join me in an exploration of the forces, trends, and future developments of the WordPress open-source ecosystem. I aim at helping myself and you get a clearer picture about the reality of the WordPress world, however fair or unfair things may seem. We each need as much clarity as possible if we are to help progress WordPress, and the web at large, in a meaningful way."
+featuredImage: './state-of-the-wordpress-economy-chart.jpg'
 ---
 
 Today, the WordPress economy, a vital part of the ecosystem, is experiencing some severe growing pains. Long ignored imbalances, obsolete beliefs, and governance vacuums, to name a few, coupled with monopolistic and polarizing tendencies of the greater digital economy, threaten to completely change the nature of WordPress. 

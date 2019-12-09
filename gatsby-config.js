@@ -7,6 +7,7 @@ module.exports = {
     social: {
       twitter: `vladpotter`,
     },
+    image: "content/assets/default-image.jpg"
   },
   plugins: [
     {
@@ -74,6 +75,7 @@ module.exports = {
                 description
                 siteUrl
                 site_url: siteUrl
+                defaultImage: image
               }
             }
           }

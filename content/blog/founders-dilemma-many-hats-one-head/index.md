@@ -2,6 +2,7 @@
 title: "The Founder's Dilemma: Many Hats, One Head"
 date: '2017-05-21T16:12:08Z'
 spoiler: "Ever since I've deep-dived head-first into this adventure of co-founding Pixelgrade my life has changed, in unexpected ways. Little did I know I would be taking the ride of my life, fulfilled and energized beyond my wildest dreams, but also stretched and challenged to breaking point and beyond. One thing is definitely sure: many hats landed on my head. This is my story wearing them."
+featuredImage: './header-man-with-hat.jpeg'
 ---
 ![70s man with hat,thinking highly of himself, with a confident look in his eyes.](./header-man-with-hat.jpeg)
 

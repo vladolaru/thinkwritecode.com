@@ -23,7 +23,7 @@ class BlogPostTemplate extends React.Component {
         <SEO
           title={post.frontmatter.title}
           description={post.frontmatter.spoiler}
-          image={post.frontmatter.featuredImage ? post.frontmatter.featuredImage.childImageSharp.sizes.src : false}
+          image={post.frontmatter.featuredImage ? post.frontmatter.featuredImage.childImageSharp.sizes.src : this.props.data.site.siteMetadata.image}
           slug={post.fields.slug}
         />
         <main>
@@ -118,6 +118,7 @@ export const pageQuery = graphql`
       siteMetadata {
         title
         author
+        image
       }
     }
     markdownRemark(fields: { slug: { eq: $slug } }) {

@@ -2,6 +2,7 @@
 title: "In All Fairness: The 40 Hours Work Week"
 date: '2017-05-28T16:12:08Z'
 spoiler: "Recently, in a documentary, I've heard something that really reverberated in me as it provided the key to making sense of a lot of conflicting thoughts and ideas: the origin of the word amateur as opposed to professional. It helped me relate with the 40 hours work week."
+featuredImage: './cart-before-the-horse.jpeg'
 ---
 ![Woman protesting for the 40 hours work week.](./header-the-40-hours-work-week.jpeg)
 
