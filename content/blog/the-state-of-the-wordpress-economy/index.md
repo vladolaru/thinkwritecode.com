@@ -10,7 +10,7 @@ Unless more of us start to consider a wider viewpoint, start discussing openly a
 
 This is me doing my part. I hope it helps.
 
-![WordPress logo restyled as a pie chart graph](./state-of-the-wordpress-economy-chart.png)<span class="image-caption">Illustration by: [Mihaela Olaru](https://www.instagram.com/elaolaru/)</span>
+![WordPress logo restyled as a pie chart graph](./state-of-the-wordpress-economy-chart.jpg)<span class="image-caption">Illustration by: [Mihaela Olaru](https://www.instagram.com/elaolaru/)</span>
 
 First of all, some _clues_ about my background so you can gauge _the biases_ that may push me in certain directions. I've been working with WordPress in one form or another for the past ten years. Going back about six years, WordPress has been my primary focus through my work at [Pixelgrade](https://pixelgrade.com/) (co-founder and CTO), a niche maker and seller of premium WordPress themes. 
 
