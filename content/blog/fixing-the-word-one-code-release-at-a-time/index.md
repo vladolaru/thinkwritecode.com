@@ -2,6 +2,7 @@
 title: "Fixing the World One Code Release at a Time"
 date: '2019-12-01T17:24:08Z'
 spoiler: "Far too long developers have been playing with this world like it’s a video game. Little matters they are part of the same world. They can always hit “Reset”. Or just put on a pair of headphones and a hoodie, and call it a good day’s work."
+featuredImage: './Michelangelo_Creation_of_Adam_(cropped).jpg'
 ---
 
 Ask yourself these questions:
@@ -13,6 +14,8 @@ _Since when the God-like powers a developer feels when playing with code can be 
 _Democratize publishing? \
 Connect everyone on Earth? \
 Organize all the world’s information and make it accessible and useful?_
+
+![Michelangelo's fresco painting in the Sistine Chappel titled The Creation of Adam](./Michelangelo_Creation_of_Adam_(cropped).jpg)<span class="image-caption">[The Creation of Adam](https://en.wikipedia.org/wiki/The_Creation_of_Adam) fresco painting by Michelangelo</span>
 
 Far too long developers have been playing with this world like it’s a video game. Little matters they are part of the same world. They can always hit “Reset”. Or just put on a pair of headphones and a hoodie, and call it a good day’s work.
 
