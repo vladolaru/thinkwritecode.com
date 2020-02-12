@@ -150,6 +150,18 @@ pre[data-line] {
   min-width: 100%;
 }
 
+.align-center {
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    display: block;
+}
+
+.align-center img {
+    margin-bottom: 0;
+}
+
 .image-caption {
     display: block;
     text-align: center;

@@ -29,7 +29,7 @@ The vast majority of people that seek to build something in the digital world ar
 
 So, how much harder is it to juggle three balls when compared to just two? It is actually **at least twice as hard.** Adding another ball makes it again twice as hard. In mathematical terms, we call this an exponential progression (like this series: 1,2,4,8,16,32,..) — things get excruciatingly hard, very fast. In real life, this kind of behavior is widespread in nature. So common in fact, you would think we would have evolved with a deep understanding of it. Unfortunately, most such phenomena happen either too fast, too slow, too large, or too small for us to observe it with ease.
 
-![E. coli colony growth](./E.coli-colony-growth.gif)<span class="image-caption">E. coli colony growth - [Source](https://en.wikipedia.org/wiki/Exponential_growth)</span>
+<span class="align-center">![E. coli colony growth](./E.coli-colony-growth.gif)<span class="image-caption">E. coli colony growth - [Source](https://en.wikipedia.org/wiki/Exponential_growth)</span></span>
 
 There is a second layer to our troubles of comprehending complex behavior: _the more familiar we are with one stage, the more likely we are to underestimate the increase in complexity of subsequent stages._ Since juggling seems to be my current theme, imagine you have mastered to perfection juggling with three balls. You could do it with your eyes closed. When presented with the challenge to up your game and try it with four, you are much more likely to consider it easier than it is. In fact, all your hard-won muscle memory and mental timings will make it much harder than usual for you to learn this new skill. _You gained certainty and safety, but lost elasticity._
 
@@ -105,7 +105,7 @@ Getting back to WordPress' Project Gutenberg, I can see some early signs of the 
 
 Those simple groups of text, links, icons, and images seem to be from another planet. The reality is that they are, despite some shared similarities with the content "people." My understanding tells me that things are only going to get weirder the more we venture up the abstraction ladder. One should slow down and think more at each small step.
 
-![Some Star Trek training may be required](./to-boldly-go-where-no-one-has-gone-before.gif)<span class="image-caption">Some Star Trek training may be required - [Source](https://vulhcan.co.vu/post/114700084030)</span>
+<span class="align-center">![Some Star Trek training may be required](./to-boldly-go-where-no-one-has-gone-before.gif)<span class="image-caption">Some Star Trek training may be required - [Source](https://vulhcan.co.vu/post/114700084030)</span></span>
 
 ## Making the jump, but in VR
 
