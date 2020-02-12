@@ -154,13 +154,13 @@ From a language perspective, blocks/HTML elements that can only "speak" in simpl
 _‒ Tree..\
 ‒ What tree?\
 ‒ Tree tree.. (he points to it)\
-‒ What is it with _that_ tree?\
+‒ What is it with that tree?\
 ‒ Bad.. bad..\
-‒ Did _that_ tree _do_ something?!\
+‒ Did that tree do something?!\
 ‒ Me.. Bubu.. (he is starting to get annoyed by my "stupidity")\
 ‒ You are not feeling fine? Can I help you with something?\
 ‒ Tree.. Bad.. Me.. Bubu.. (and he points to a his backside)\
-‒ Oh! You fell from _that_ tree and hurt your ass. I feel for man.. of all the places one can get hurt, that's the worst.\
+‒ Oh! You fell from that tree and hurt your ass. I feel for man.. of all the places one can get hurt, that's the worst.\
 ‒ Bubu.. (sobbing)\
 He didn't understand a thing I was saying, but I am pretty sure I got it, and I could be there for him — a fellow human comforting another in coccyxian pain._
 
