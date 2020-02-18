@@ -20,7 +20,7 @@ One can't speak about themes without inviting the "royalty" of the land: _plugin
 
 I would be delighted if, at one point, we could do away with "theme" or "plugin," and instead call everything we bolt unto our bare WordPress installation just "module" or "add-on." Because **that is all there is to it: you get something out-of-the-box with the ability to receive and interact with a lot of other third-party modules.** Some of those modules will be more focused on frontend styling and layout, while others will more functionality-heavy focused on building, management, and analysis tools. We live in this world already, and I don't see much sense in keeping up with the illusion of themes and plugins.
 
-The closest term I can come up with to capture my perspectives on what makes for a good WordPress theme is: "solution." Let it reverberate a little bit: _WordPress solutions.. Site solutions.._ It has a nice ring to it, somewhat punchy, but most importantly _sharp and opinionated._ Just what the doctor ordered!
+The closest term I can come up with to capture my perspectives on what makes for a good WordPress theme is: "solution". Let it reverberate a little bit: _WordPress solutions.. Site solutions.._ It has a nice ring to it, somewhat punchy, but most importantly _sharp and opinionated._ Just what the doctor ordered!
 
 ## Late at the table
 _This is so passé, Vlad! Aren't themes dead already?_
