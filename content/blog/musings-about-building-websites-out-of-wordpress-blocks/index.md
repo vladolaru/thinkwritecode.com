@@ -1,5 +1,5 @@
 ---
-title: "Musings about building websites out of (WordPress) blocks"
+title: "Musings About Building Websites out of (WordPress) Blocks"
 date: '2020-02-12T10:00:08Z'
 spoiler: "Should we call it quits and forget about it? Should we focus on more \"visible\" endeavors that would satisfy more immediate needs? Should we just ignore all this complexity, and push right ahead hopeful of some epiphany?"
 featuredImage: './gutenberg-logo.png'
