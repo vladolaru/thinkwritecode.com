@@ -187,3 +187,7 @@ What I advocate for is to **show this "enemy" its due respect** by taking as muc
 I wrote all this because I care, and I would love to see this project reach its true potential. I also love thinking about complex systems, but that is secondary.
 
 Remember, _WordPress, the web and beyond.._
+
+---
+
+_Since I published this essay, lots of appreciative people kept asking me about what specific experiences and ideas I can share about "blocks needing to be smart enough to establish relationships, to adapt to changing environments." I will happily oblige to go further down this rabbit hole. As an interim step, I felt the need to first share some thoughts on what I consider to be [the roles and responsibilities of a good WordPress theme](/the-good-wordpress-theme/)._
