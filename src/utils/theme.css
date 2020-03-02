@@ -162,8 +162,18 @@ pre[data-line] {
     margin-bottom: 0;
 }
 
+.half-width {
+    max-width: 50%;
+    display: block;
+}
+
 .image-caption {
     display: block;
     text-align: center;
     font-size: 0.8em;
 }
+
+.small {
+    font-size: 0.8em;
+}
+

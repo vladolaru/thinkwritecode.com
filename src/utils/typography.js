@@ -17,6 +17,9 @@ Wordpress2015.overrideThemeStyles = () => ({
   'li code': {
     fontSize: '1rem'
   },
+  "ul,ol": {
+    marginLeft: '1.68rem'
+  },
 })
 
 delete Wordpress2015.googleFonts
