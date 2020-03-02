@@ -1,6 +1,6 @@
 ---
 title: "Adventures With Complex Global Systems in Block-Based Websites - Part One"
-date: '2020-03-02T10:21:08Z'
+date: '2020-03-02T11:17:08Z'
 spoiler: "An essay about my dives into creating systems that help build and control sites from a global vantage point. My aim is not to empower users with freedom and choice, but to liberate them from such false freedom and choices."
 featuredImage: './style-manager-color-palettes-customization-in-action-vasco.png'
 ---
