@@ -114,7 +114,7 @@ Considering the stack above, I am going to go from the bottom to the top since t
 
 **The first step** in departing from the granularity of HTML+CSS is to have individual color or font options control *multiple* HTML elements and various CSS properties. By grouping styling behavior in this way, we can reduce the number of available options, while creating a flow of information (color or font values) more aligned with each design intent.
 
-All of our (Customizer) fields are generated dynamically by the Style Manager system via a configuration. I will try to better explain this with some actual pieces of configuration from our Gema theme. So, rest assured, all of this is battle-tested, production-ready stuff.
+All of our (Customizer) fields are generated dynamically by the Style Manager system via a configuration. I will try to better explain this with some actual pieces of configuration from our [Gema WordPress theme](https://pixelgrade.com/themes/blogging/gema/). So, rest assured, all of this is battle-tested, production-ready stuff.
 
 ```php
 'main_content_body_text_color' => [
