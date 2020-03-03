@@ -17,6 +17,14 @@ class BlogPostTemplate extends React.Component {
     const post = this.props.data.markdownRemark
     const siteTitle = this.props.data.site.siteMetadata.title
     const { previous, next } = this.props.pageContext
+    const discussUrl = `https://mobile.twitter.com/search?q=${encodeURIComponent(
+      `${this.props.data.site.siteMetadata.siteUrl}${post.fields.slug}`
+    )}`;
+    const emailUrl = `mailto:hello@thinkwritecode.com?subject=${encodeURIComponent(
+      `Thoughts on ${post.frontmatter.title}`
+    )}&body=${encodeURIComponent(
+      `Hi Vlad,`
+    )}`;
 
     return (
       <Layout location={this.props.location} title={siteTitle}>
@@ -44,11 +52,15 @@ class BlogPostTemplate extends React.Component {
             </header>
             <div dangerouslySetInnerHTML={{ __html: post.html }} />
             <footer>
-              {/*<hr*/}
-              {/*  style={{*/}
-              {/*    marginBottom: rhythm(1),*/}
-              {/*  }}*/}
-              {/*/>*/}
+              <p>
+                <a href={discussUrl} target="_blank" rel="noopener noreferrer">
+                  Discuss on Twitter
+                </a>
+                {` • `}
+                <a href={emailUrl} target="_blank" rel="noopener noreferrer">
+                  Drop me an email
+                </a>
+              </p>
             </footer>
           </article>
         </main>
@@ -119,6 +131,7 @@ export const pageQuery = graphql`
         title
         author
         image
+        siteUrl
       }
     }
     markdownRemark(fields: { slug: { eq: $slug } }) {
