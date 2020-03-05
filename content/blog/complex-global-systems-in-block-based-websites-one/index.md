@@ -240,37 +240,36 @@ Think of each of these four controls as _a series of prisms_ that each diverge, 
 This is the point where we are today with the Color Palettes system part of Style Manager. General, hand-crafted individual Color Palettes, Palette Filters for whole-palette color alterations, and Palette Customization for novel explorations. We are pretty much satisfied with them, so let's move on to a more complex problem.
 
 ### Font Palettes
-While Color Palettes play with simple color values, Font Palettes are orders of magnitude more challenging. This is because _a font definition involves multiple values;_ eight to be more precise:
+While Color Palettes play with simple color values, Font Palettes are orders of magnitude more challenging. This is because _a font definition involves multiple values;_ seven to be more precise:
 ```
 - font-family
 - font-weight
 - font-size
 - line-height
 - letter-spacing
-- text-align
 - text-transform
 - text-decoration
 ```
 
 The logic of individual, base controls, and connected fields is the same as for colors. Each font control can handle all the different values, although a theme may choose to be a bit more restrictive with some of them, in line with the design intent. Some base controls may only support `font-family`, `font-weight`, and `font-size`, for example. This is not an issue since everything is set up in such a way that anything not supported is simply ignored. The higher levels offer all that they can, while the lower ones use just what they need.
 
-The big difference for Font Palettes comes in the way you express the typographical design considerations behind a certain palette. We all know how much of an art form font pairings are. Well, take those simple two font-family pairs and *couple them* with the rest of the seven values. **Things get overwhelming, pretty fast.** A better, smarter way would be needed to control all these possibilities.
+The big difference for Font Palettes comes in the way you express the typographical design considerations behind a certain palette. We all know how much of an art form font pairings are. Well, take those simple two font-family pairs and *couple them* with the rest of the six values. **Things get overwhelming, pretty fast.** A better, smarter way would be needed to control all these possibilities.
 
 First of all, we don't have two, but **four font(-families).** That is what our diverse portfolio of themes revealed it would take to make our designs happen, typography wise. So, in the order of importance:
 ```
+- body
 - primary
 - secondary
-- body
 - accent
 ```
 
-These are the four font definitions each Font Palette offers. The main workhorses are the primary and secondary ones, but more playful designs also need a body font, and, quite rarely, an accent font (think of drop caps, site title, some large background letters, etc.).
+These are the four font definitions each Font Palette offers — the naming could use a little bit more work. The main workhorses are the `body` and `primary` ones, but more playful designs also need an additional `secondary` font (e.g. for headings like `h4`, `h5`), and, quite rarely, an `accent` font (think of drop caps, site title, some large background letters, etc.).
 
 Constraining the number of font families to four is hardly a constraint at all since most people use only two fonts. The complexity is still not reigned in.
 
-When it comes to typography, not all of the eight font sub-values have the same muscle — quite the contrary. **Font-family reigns supreme. Font-size comes in a close second.** The rest can be thought of as _embelishments_ on the structure provided by these two. Thankfully, the font family poses a binary choice: you either use one or you don't. That led us to **make the font size the cornerstone of our Font Palettes system.**
+When it comes to typography, not all of the seven font sub-values have the same muscle — quite the contrary. **Font-family reigns supreme. Font-size comes in a close second.** The rest can be thought of as _embelishments_ on the structure provided by these two. Thankfully, the font family poses a binary choice: you either use one or you don't. That led us to **make the font size the cornerstone of our Font Palettes system.**
 
-We've ended up **expressing the other font sub-values in relation to the font size.** To properly convey intent, we've come up with **two sub-systems: a curve** for attaching font-size and line-height; **a set of intervals** for connecting font-size and font-weight, letter-spacing, text-align, text-transform, and text-decoration. The need for two systems instead of just one is the result of the fundamentally different behavior of line-height when compared with the rest. *Line-height is much more structural* in nature than the rest, and as such, it needs to be _more aligned with the font-size._
+We've ended up **expressing the other font sub-values in relation to the font size.** To properly convey intent, we've come up with **two sub-systems: a curve** for attaching `font-size` and `line-height`; **a set of intervals** for connecting `font-size` and `font-weight`, `letter-spacing`, `text-transform`, and `text-decoration`. The need for two systems instead of just one is the result of the fundamentally different behavior of `line-height` when compared with the rest. *Line-height is much more structural* in nature than the rest, and as such, it needs to be _more aligned with the font-size._
 
 ```php
 // Primary is used for main headings [Display, H1, H2, H3]
@@ -312,9 +311,9 @@ We've ended up **expressing the other font sub-values in relation to the font si
 
 Above, you have the configuration for the primary font in a certain Font Palette. All the interesting stuff happens through the `font_size_to_line_height_points` and `font_styles_intervals` entries.
 
-The `font_size_to_line_height_points` entry is *a list of points* on the plane defined by the font-size and line-height axes. One can define as many points as it needs to precisely describe the desired curve. The system will _interpolate_ between these points to determine the function that will produce a line-height value for any given font-size.
+The `font_size_to_line_height_points` entry is *a list of points* on the plane defined by the `font-size` and `line-height` axes. One can define as many points as it needs to precisely describe the desired curve. The system will _interpolate_ between these points to determine the function that will produce a `line-height` value for any given `font-size`.
 
-The `font_styles_intervals` entry is *an ordered list* of interval definitions on the font-size axis (the `start` and optionally, `end` sub-entries), each segment carrying a set of font style values. The system "flattens" all these intervals (latter entries have a higher priority) and ends up with non-overlapping intervals to use in determining a set of font style values for any given font-size value.
+The `font_styles_intervals` entry is *an ordered list* of interval definitions on the `font-size` axis (the `start` and optionally, `end` sub-entries), each segment carrying a set of font style values. The system "flattens" all these intervals (latter entries have a higher priority) and ends up with non-overlapping intervals to use in determining a set of font style values for any given `font-size` value.
 
 Through the mechanisms of these two sub-systems, we've managed to **make Font Palettes theme agnostic,** and also allow for the possibility to introduce a similar kind of filters and alterations as seen on the Color Palettes. This part is still *work-in-progress* since acting upon the complexity of Font Palettes requires new controls like interactive curves or interval shifters. We don't have all the solutions yet, so I will not go into that right now.
 
