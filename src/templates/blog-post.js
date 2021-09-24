@@ -7,6 +7,7 @@ import SEO from '../components/seo'
 import { formatReadingTime } from '../utils/helpers'
 import { rhythm, scale } from '../utils/typography'
 import Signup from '../components/Signup'
+import { getImage } from "gatsby-plugin-image"
 
 const systemFont = `system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI",
     "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans",
@@ -25,13 +26,14 @@ class BlogPostTemplate extends React.Component {
     )}&body=${encodeURIComponent(
       `Hi Vlad,`
     )}`;
+    const image = post.frontmatter.featuredImage ? getImage(post.frontmatter.featuredImage) : this.props.data.site.siteMetadata.image;
 
     return (
       <Layout location={this.props.location} title={siteTitle}>
         <SEO
           title={post.frontmatter.title}
           description={post.frontmatter.spoiler}
-          image={post.frontmatter.featuredImage ? post.frontmatter.featuredImage.childImageSharp.sizes.src : this.props.data.site.siteMetadata.image}
+          image={image}
           slug={post.fields.slug}
         />
         <main>
@@ -40,7 +42,7 @@ class BlogPostTemplate extends React.Component {
               <h1>{post.frontmatter.title}</h1>
               <p
                 style={{
-                  ...scale(-1 / 5),
+                  ...scale(-1/5),
                   display: `block`,
                   marginBottom: rhythm(1),
                   marginTop: rhythm(-1),
@@ -145,7 +147,7 @@ export const pageQuery = graphql`
         spoiler,
         featuredImage {
             childImageSharp{
-              sizes(maxWidth: 720) {
+              fluid(maxWidth: 720) {
                 src
               }
             }
