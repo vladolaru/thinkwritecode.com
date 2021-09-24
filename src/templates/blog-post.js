@@ -147,9 +147,7 @@ export const pageQuery = graphql`
         spoiler,
         featuredImage {
             childImageSharp{
-              fluid(maxWidth: 720) {
-                src
-              }
+              gatsbyImageData(width: 720)
             }
           }
       }

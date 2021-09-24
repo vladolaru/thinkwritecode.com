@@ -2,6 +2,7 @@ import React from 'react'
 import PropTypes from 'prop-types'
 import Helmet from 'react-helmet'
 import { StaticQuery, graphql } from 'gatsby'
+import {getSrc} from 'gatsby-plugin-image'
 
 function SEO({ meta, image, title, description, slug }) {
   return (
@@ -11,7 +12,7 @@ function SEO({ meta, image, title, description, slug }) {
         const { siteMetadata } = data.site
         const metaDescription =
           description || data.site.siteMetadata.description
-        const metaImage = image ? `${siteMetadata.siteUrl}/${image}` : null
+        const metaImage = image ? `${siteMetadata.siteUrl}${getSrc(image)}` : null
         const url = `${siteMetadata.siteUrl}${slug}`
         return (
           <Helmet
@@ -92,7 +93,7 @@ SEO.defaultProps = {
 
 SEO.propTypes = {
   description: PropTypes.string,
-  image: PropTypes.string,
+  image: PropTypes.object,
   meta: PropTypes.array,
   slug: PropTypes.string,
   title: PropTypes.string.isRequired,

@@ -131,13 +131,6 @@ module.exports = {
                         title
                         date
                         spoiler
-                        featuredImage {
-                          childImageSharp{
-                            fluid(maxWidth: 720) {
-                              src
-                            }
-                          }
-                        }
                       }
                     }
                   }
