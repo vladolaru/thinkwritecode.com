@@ -82,8 +82,6 @@ module.exports = {
         ],
       },
     },
-    `gatsby-transformer-sharp`,
-    `gatsby-plugin-sharp`,
     {
       resolve: `gatsby-plugin-google-analytics`,
       options: {
@@ -135,7 +133,7 @@ module.exports = {
                         spoiler
                         featuredImage {
                           childImageSharp{
-                            sizes(maxWidth: 720) {
+                            fluid(maxWidth: 720) {
                               src
                             }
                           }
